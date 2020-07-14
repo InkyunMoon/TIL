@@ -7,7 +7,7 @@
 > - 'same'인 경우, 결과가 원본크기의 stride배가 되도록 Crop
 > - 'valid'인 경우, Crop을 하지 않는다.
 
-![conv2d](C:%5CUsers%5Cstudent%5CDesktop%5Cconv2d.png)
+![conv2d](markdown-images/conv2d.png)
 
 위의 그림에서 원본 이미지의 크기는 2x2, 필터의 크기는 3x3이다.
 

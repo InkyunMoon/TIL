@@ -2,13 +2,13 @@
 
 ### GAN이란?
 
-![image-20200714164748855](C:%5CUsers%5Cstudent%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200714164748855.png)
+![image-20200714164748855](markdown-images/image-20200714164748855.png)
 
 #### Loss function
 
 Discriminator(D)와 Generator(G)를 학습시키기 위해 아래의 로스함수를 이용한다.
 
-![image-20200714164625316](C:%5CUsers%5Cstudent%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200714164625316.png)
+![image-20200714164625316](markdown-images/image-20200714164625316.png)
 
 - D는 실제 데이터(x)를 1로, 가짜 데이터를 0으로 판별하도록 학습한다.
 

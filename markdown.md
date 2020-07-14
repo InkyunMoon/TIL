@@ -78,7 +78,14 @@ print(random.sample(numbers, 6))
 - 기본 설정으로 이미지를 가져오면 절대 경로로 표기된다.(C드라이브 ~)
 
 - 이 경우, Github이나 다른 컴퓨터에서는 해당 이미지가 없어 깨지는 현상이 발생할 수 있다. 따라서 아래의 설정을 적용한다.
-  - (typora 내에서)  '특별한 동작 없음' 탭에서 파일 - 환경설정 - 이미지 - '로컬 이미지에 위 규칙을 적용', '온라인 이미지에 위 규칙을 적용',' 가능하다면 상대적 위치 사용',' AUto escape in~
+  - (typora 내에서)   파일 -> 환경설정 -> 이미지 -> '특별한 동작 없음' 탭 -> 1) '로컬 이미지에 위 규칙을 적용'
+  
+    2) '온라인 이미지에 위 규칙을 적용'
+  
+    3) '가능하다면 상대적 위치 사용'
+  
+    4) 'Auto escape image URL when insert' 체크
+  
   - 'copy image to custom folder' 탭에서 ./markdown-images로 설정
   
   ![800px-Lower_Manhattan_skyline_-_June_2017](markdown-images/800px-Lower_Manhattan_skyline_-_June_2017.jpg)
