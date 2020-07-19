@@ -244,5 +244,86 @@ plt.show()
 
 # Tutorial2 - visualization & machine learning
 
+### feature engineering - 결측치 처리
+
+- Null data를 어떻게 채우느냐에 따라 모델의 성능이 좌우된다.
+- feature engineering은 train data뿐만 아니라 test data에도 똑같이 적용해주어야 한다.
+
+
+
+-> 주피터 노트북으로 옮겨서 작업
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
