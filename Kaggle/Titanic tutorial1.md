@@ -129,6 +129,7 @@ pd.crosstab(df_train['Sex'], df_train['Survived'], margins=True)
 ```python
 # sns.factorplot :  3개의 차원으로 이루어진 그래프를 그릴 수 있다.
 # 예를 들어, hue='Sex' 옵션을 사용하여 Pclass별 Survived의 분포를 Sex별로 볼 수 있다.
+# -> 범주형 자료의 구분을 쉽게 만들어준다.
 
 sns.factorplot('Pclass','Survived',hue='Sex', data=df_train,size=3, aspect=1.5)
 ## aspect는 subplot의 세로 대비 가로의 비율이다.
