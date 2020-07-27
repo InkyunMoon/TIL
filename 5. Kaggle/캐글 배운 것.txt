@@ -1,0 +1,13 @@
+캐글3 배운 것
+plt.setp로 피규어 선 모양 다루기
+
+isdigit() - '문자열'이 숫자인지 문자인지 확인한다.
+**{'xerr':cv_std}) - 그래프에 에러바를 추가한다. **은 키워드 인자.
+
+learning_curve로 정확도 그래프 그리기
+- train_sizes
+- train_scores
+- test_scores
+를 리턴한다. 추가적으로 학습 시간도 반환하지만 따로 설정해야 한다.
+
+np.argsort - 작은 값부터 순서대로 데이터의 인덱스를 반환한다.
