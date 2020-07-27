@@ -127,7 +127,9 @@ pd.crosstab(df_train['Sex'], df_train['Survived'], margins=True)
 ```
 
 ```python
+# factorplot은 catplot으로 업데이트됨.
 # sns.factorplot :  3개의 차원으로 이루어진 그래프를 그릴 수 있다.
+# data = 를 인자로 받는다.
 # 디폴트는 point plot이다. kind 인자로 모양을 바꿀 수 있다.
 # 예를 들어, hue='Sex' 옵션을 사용하여 Pclass별 Survived의 분포를 Sex별로 볼 수 있다.
 # -> 범주형 자료의 구분을 쉽게 만들어준다.
