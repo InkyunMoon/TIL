@@ -18,22 +18,27 @@ anaconda powershell을 통해서 별다른 설정없이 conda 환경을 사용�
 
 
 
-working directory - staging index - repository
+working directory - stage index - repository
 
 - git add 를 통해서 staging index로 옮긴다.
-- git restore --staged <파일> 을 통해서 staging index에 있던 것을 다시 working directory로 옮긴다.
+
+- git restore --staged <파일> 을 통해서 staging index에 있던 것을 다시 working directory로 옮긴다. == git reset HEAD index.html
+
+  - repository에 올라갔는데 다시 취소해야하는 경우가 있다.(로그인 정보등이 )
+
+  - git rm --cached index.html
+
 - commit을 통해서 repository로 보낸다.
 
 
 
-git log
+### git log
 
 git log --oneline 을 통해서 커밋 내역을 살펴볼 수 있다.
 
-
-
 git log --stat을 통해 조금 더 자세한 내용을 살펴볼 수 있다(몇 라인이 추가/제거 되었는지)
 
-
-
 git log --patch를 통해 커밋 전/후를 비교할 수 있다.
+
+
+
