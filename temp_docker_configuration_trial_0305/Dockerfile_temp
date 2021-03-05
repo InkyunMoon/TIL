@@ -1,0 +1,10 @@
+FROM tensorflow/tensorflow:1.4.0-gpu-py3
+
+COPY ./requirement.txt 
+
+WORKDIR /app
+
+RUN useradd moonpie && chown -R moonpie /app
+USER moonpie
+
+CMD ["/bin/bash"]
